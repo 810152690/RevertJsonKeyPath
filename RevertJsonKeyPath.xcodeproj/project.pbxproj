@@ -13,6 +13,7 @@
 		0EC686C7213FEAF5004942D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC686C5213FEAF5004942D2 /* Main.storyboard */; };
 		0EC686D3213FEAF5004942D2 /* RevertJsonKeyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC686D2213FEAF5004942D2 /* RevertJsonKeyPathTests.swift */; };
 		0EC686DE213FEAF5004942D2 /* RevertJsonKeyPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC686DD213FEAF5004942D2 /* RevertJsonKeyPathUITests.swift */; };
+		0EC686EC213FF71D004942D2 /* SearchPathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC686EB213FF71D004942D2 /* SearchPathHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0EC686D9213FEAF5004942D2 /* RevertJsonKeyPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevertJsonKeyPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC686DD213FEAF5004942D2 /* RevertJsonKeyPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevertJsonKeyPathUITests.swift; sourceTree = "<group>"; };
 		0EC686DF213FEAF5004942D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC686EB213FF71D004942D2 /* SearchPathHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPathHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0EC686C5213FEAF5004942D2 /* Main.storyboard */,
 				0EC686C8213FEAF5004942D2 /* Info.plist */,
 				0EC686C9213FEAF5004942D2 /* RevertJsonKeyPath.entitlements */,
+				0EC686EB213FF71D004942D2 /* SearchPathHelper.swift */,
 			);
 			path = RevertJsonKeyPath;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				0EC686C2213FEAF3004942D2 /* ViewController.swift in Sources */,
 				0EC686C0213FEAF3004942D2 /* AppDelegate.swift in Sources */,
+				0EC686EC213FF71D004942D2 /* SearchPathHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
