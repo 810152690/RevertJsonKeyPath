@@ -1,0 +1,2 @@
+# RevertJsonKeyPath
+根据字符串反向查询在json中的路径，适合庞大的json数据
