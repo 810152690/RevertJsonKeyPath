@@ -42,7 +42,7 @@ class ViewController: NSViewController {
         print("count: \(searchPathHelper.nodeList.count)")
         
         let searchPath = self.keyWordTextField.stringValue
-        let results = searchPathHelper.searchByKey(searchKey: searchPath)
+        let results = searchPathHelper.search(word: searchPath)//searchByK(searchKey: searchPath)
         var joinResult = "\n"
         for resultPath in results {
             joinResult += resultPath
